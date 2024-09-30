@@ -67,6 +67,7 @@ This project is a CRM (Customer Relationship Management) application built using
 ## Execution
 
 - A superuser is created for secure admin access.
+  
   ![image](/images/superuser1.png)
   ![image](/images/superuser2.png)
   ![image](/images/superuser3.png)
@@ -74,6 +75,7 @@ This project is a CRM (Customer Relationship Management) application built using
 
 
 - New User can be registered by hitting the '/register' endpoint. The user has to fill out the registration form which is supported by Django's robust validation checks.
+  
   ![image](/images/register-user.png)
   ![image](/images/register-user2.png)
   ![image](/images/register-user3.png)
@@ -81,16 +83,19 @@ This project is a CRM (Customer Relationship Management) application built using
 
 
 - When the user logs in, all the records are displayed.
+  
   ![image](/images/login.png)
   ![image](/images/login2.png)
   ![image](/images/get-all-users.png)
 
 
 - A specific record can be viewed by clicking on the ID, which is the primary key.
+  
   ![image](/images/get-user.png)
 
 
 - A record can be updated by clicking on the 'Update' button, which hits the 'update/**id**' endpoint, where **id** is the ID of the record to be updated.
+  
   ![image](/images/update.png)
   ![image](/images/update-user.png)
   ![image](/images/update-user2.png)
@@ -98,24 +103,26 @@ This project is a CRM (Customer Relationship Management) application built using
 
 
 - A record can be deleted by clicking on the Delete button.
+  
   ![image](/images/delete-user.png)
   ![image](/images/delete-user2.png)
 
 
 - A new record can be created by clicking on the 'Add Record' button in the navbar. This links redirects to a form in which record details are to be entered.
-![image](/images/add.png)
-![image](/images/add-record.png)
-![image](/images/add-record2.png)
-![image](/images/add-record3.png)
+  
+  ![image](/images/add.png)
+  ![image](/images/add-record.png)
+  ![image](/images/add-record2.png)
+  ![image](/images/add-record3.png)
 
 
+- User can log out by clicking on the 'Logout' button in the navbar. When a different user logs in, all the records are displayed to the logged in user, ensuring data persistence using MySQL backend.
+  
+  ![image](/images/logout.png)
+  ![image](/images/persistence.png)
+  ![image](/images/persistence2.png)
 
-
-![image](/images/logout.png)
-![image](/images/persistence.png)
-![image](/images/persistence2.png)
-
-
+  
 ## Additional Notes
 
 - The Django Admin interface provides complete control over all the data models, making management easy for administrators.
