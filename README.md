@@ -86,7 +86,18 @@ This project is a CRM (Customer Relationship Management) application built using
   ![image](/images/get-all-users.png)
 
 
-- 
+- A specific record can be viewed by clicking on the ID, which is the primary key.
+  ![image](/images/get-user.png)
+
+
+- A record can be updated by clicking on the 'Update' button, which hits the 'update/**id**' endpoint, where **id** is the ID of the record to be updated.
+  ![image](/images/update.png)
+  ![image](/images/update-user.png)
+  ![image](/images/update-user2.png)
+  ![image](/images/update-user3.png)
+
+
+  
 ![image](/images/add-record.png)
 ![image](/images/add-record2.png)
 ![image](/images/add-record3.png)
@@ -94,17 +105,11 @@ This project is a CRM (Customer Relationship Management) application built using
 ![image](/images/delete-user.png)
 ![image](/images/delete-user2.png)
 
-![image](/images/get-user.png)
+
 
 ![image](/images/logout.png)
 ![image](/images/persistence.png)
 ![image](/images/persistence2.png)
-
-![image](/images/update-user.png)
-![image](/images/update-user2.png)
-![image](/images/update-user3.png)
-![image](/images/update.png)
-
 
 
 ## Additional Notes
