@@ -78,17 +78,24 @@ This project is a CRM (Customer Relationship Management) application built using
   ![image](/images/register-user2.png)
   ![image](/images/register-user3.png)
   ![image](/images/register-user4.png)
-  
+
+
+- When the user logs in, all the records are displayed.
+  ![image](/images/login.png)
+  ![image](/images/login2.png)
+  ![image](/images/get-all-users.png)
+
+
+- 
 ![image](/images/add-record.png)
 ![image](/images/add-record2.png)
 ![image](/images/add-record3.png)
 ![image](/images/add.png)
 ![image](/images/delete-user.png)
 ![image](/images/delete-user2.png)
-![image](/images/get-all-users.png)
+
 ![image](/images/get-user.png)
-![image](/images/login.png)
-![image](/images/login2.png)
+
 ![image](/images/logout.png)
 ![image](/images/persistence.png)
 ![image](/images/persistence2.png)
